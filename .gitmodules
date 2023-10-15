@@ -1,0 +1,3 @@
+[submodule "lib/ERC5173-Diamond"]
+	path = lib/ERC5173-Diamond
+	url = https://github.com/untrading/ERC5173-Diamond-v1.git

@@ -6,7 +6,7 @@ import {IERC165} from "@solidstate/contracts/interfaces/IERC165.sol";
 import {ERC165BaseStorage} from "@solidstate/contracts/introspection/ERC165/base/ERC165BaseStorage.sol";
 import {ERC721MetadataStorage} from "@solidstate/contracts/token/ERC721/metadata/ERC721MetadataStorage.sol";
 import {IERC721} from "@solidstate/contracts/interfaces/IERC721.sol";
-import "@drad/eip-5173-diamond/contracts/nFR/InFR.sol";
+import "lib/ERC5173-Diamond/contracts/nFR/InFR.sol";
 
 import "./management/ManagementStorage.sol";
 

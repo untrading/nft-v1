@@ -21,6 +21,20 @@ Create a .env file and define the following:
 | `DEPLOYER_PRIVATE_KEY`      | Private key used for deploying the contracts                             |
 | `UNTRADING_MANAGER_ADDRESS` | The address which will act as the untrading manager                      |
 
+## Submodules
+
+### Clone
+
+```bash
+git clone --recurse-submodules
+```
+
+### Update
+
+```bash
+git submodule update --remote
+```
+
 ## Testing
 
 Test contracts with Hardhat:
