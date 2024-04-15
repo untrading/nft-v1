@@ -26,8 +26,8 @@ const config: HardhatUserConfig = {
       accounts: process.env.DEPLOYER_PRIVATE_KEY == undefined ? [] : [`0x${process.env.DEPLOYER_PRIVATE_KEY}`],
       saveDeployments: true,
     },
-    mumbai: {
-      url: `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_TOKEN}`, // RPC URL
+    amoy: {
+      url: `https://polygon-amoy.infura.io/v3/${process.env.INFURA_TOKEN}`, // RPC URL
       accounts: process.env.DEPLOYER_PRIVATE_KEY == undefined ? [] : [`0x${process.env.DEPLOYER_PRIVATE_KEY}`],
       saveDeployments: true,
     },
